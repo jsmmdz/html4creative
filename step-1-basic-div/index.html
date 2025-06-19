@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Step 1 – Basic DIV</title>
+  <title>Step 1 - Basic DIV</title>
   <style>
     div{
       border:1px solid red;
@@ -12,6 +12,14 @@
     #miprimerdiv {
       background-color: lightblue;
     }
+    .texto-destacado {
+      color: royalblue;
+      font-weight: regular;
+    }
+    .texto-destacado:hover {
+      color: rgb(238, 24, 174);
+      font-weight: bold;
+    }
   </style>
 </head>
 <body>
@@ -19,8 +27,14 @@
   <div id="miprimerdiv">
   Hola soy Juan y este es mi primer div
   </div>
+
   <div>
     contenido div dos
+  </div>
+
+  <div>
+    <img src="https://i.imgur.com/3flJhWV.jpeg" alt="Esto es un gato" width="300" />
+    <p>Esta es la descripción de esta imagen. <span class="texto-destacado">Pero quiero que éste bloque de texto tenga otro color</span></p>
   </div>
 
   <script>

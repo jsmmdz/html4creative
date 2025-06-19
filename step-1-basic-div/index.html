@@ -3,8 +3,33 @@
 <head>
   <meta charset="UTF-8">
   <title>Step 1 – Basic DIV</title>
+  <style>
+    div{
+      border:1px solid red;
+      margin: 10px;
+      padding: 10px;
+    }
+    #miprimerdiv {
+      background-color: lightblue;
+    }
+  </style>
 </head>
 <body>
-  <div>Hola mundo</div>
+
+  <div id="miprimerdiv">
+  Hola soy Juan y este es mi primer div
+  </div>
+  <div>
+    contenido div dos
+  </div>
+
+  <script>
+    setTimeout(function() {
+      document.getElementById("miprimerdiv").innerHTML = "Este es nuveo contenido con javascript";
+      document.getElementById("miprimerdiv").style.backgroundColor = "white";
+    }, 5000);
+  </script>
+
+
 </body>
 </html>

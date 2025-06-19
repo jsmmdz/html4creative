@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Step 6 – JS Interaction</title>
+</head>
+<body>
+  <div id="toggleBox" style="width: 100px; height: 100px; background-color: coral; cursor: pointer;">
+    Click
+  </div>
+
+  <script>
+    const box = document.getElementById("toggleBox");
+    box.addEventListener("click", () => {
+      box.style.backgroundColor = box.style.backgroundColor === "coral" ? "lightgreen" : "coral";
+    });
+  </script>
+</body>
+</html>

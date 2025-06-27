@@ -1,0 +1,59 @@
+/* Importar Unbounded desde Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@200..900&display=swap');
+
+body {
+    font-family: 'Unbounded', Arial, Helvetica, sans-serif;
+    background: #000000;
+    color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #D285CB;
+    font-size: 2.5em;
+    text-align: center;
+    margin-top: 30px;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+
+#animation-container {
+    position: relative;
+    width: 500px;
+    height: 281px;
+    margin: 0 auto 20px auto;
+    border-radius: 18px;
+    box-shadow: 0 4px 24px rgba(210,133,203,0.15);
+    border: 3px solid #D285CB;
+    background: #858D98;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#texto-debajo {
+    color: #D285CB;
+    font-family: 'Unbounded', Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
+    margin-bottom: 40px;
+    margin-top: 30px;
+    text-shadow: 0 2px 8px #000;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.imagen img {
+    width: auto;
+    height: 500px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%) rotate(90deg);
+    background: #FFFFFF;
+    border-radius: 12px;
+    box-shadow: 0 2px 12px #00000055;
+}
